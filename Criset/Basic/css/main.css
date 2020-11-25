@@ -1,0 +1,619 @@
+/* Body */
+body{
+	background-color: #f9f8f8;
+}
+/* Navbar */
+.navbar{
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.navbar-brand img{
+	height: 32px;
+}
+.navbar-nav li{
+	padding-right: 12px;
+}
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:hover{
+	color: rgb(0, 48, 174);
+}
+.navbar-nav .nav-item .nav-link.btn-sign-up{
+	border-radius: 50px;
+}
+/* Intro */
+#intro{
+	width: 100%;
+	background: url('../img/intro-bg.png') center bottom no-repeat;
+	background-size: cover;
+	padding: 200px 0 150px 0;
+	margin-bottom: 50px;
+}
+@media (max-width: 991px){
+	#intro, .about{
+		padding: 100px 0 0 0;
+	}
+}
+@media (max-width: 574px){
+	#intro, .about{
+		padding: 10px 0 0 0;
+		margin-bottom: 50px;
+	}
+}
+.intro-info{
+	text-align: center;
+	margin-bottom: 8%;
+}
+.intro-info h1{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+@media (max-width: 991px){
+	.intro-info h1{
+		padding: 100px 0 0 0;
+	}
+}
+@media (max-width: 574px){
+	.intro-info h1{
+		padding: 130px 0 0 0;
+	}
+}
+
+.intro-info .btn-get-started{
+	border-radius: 50px;
+	padding: 10px 32px;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0 20px 20px 0;
+}
+.signup {
+	background-color: #0030ae;
+	display:none;
+}
+.isBtn {
+	background-color: #0030ae;
+	display:none;
+}
+.login{
+	background-color: #0030ae;
+}
+
+/* About */
+#about{
+	width: 100%;
+	background: url('../img/criset\ about.png') center bottom no-repeat;
+	background-size: cover;
+	padding: 200px 0 150px 0;
+	margin-bottom: 50px;
+}
+@media (max-width: 991px){
+	#about .intro-info h1{
+		padding: 20px 0 0 0;
+	}
+}
+@media (max-width: 574px){
+	#about .intro-info h1{
+		padding: 10px 0 0 0;
+	}
+}
+
+/* Sections */
+section{
+	overflow: hidden;
+}
+/* Sections Header */
+.section-header h3{
+	font-size: 40;
+	color: #283d50;
+	text-align: center;
+	font-weight: 500;
+	position: relative;
+}
+.section-header .section-title{
+	font-size: 40;
+	color: #283d50;
+	text-align: center;
+	position: relative;
+}
+.section-header p {
+	text-align: center;
+	margin: auto;
+	font-size: 15px;
+	padding-bottom: 60px;
+	color: #556877;
+	width: 50%;
+}
+
+.circle{
+	height: 120px;
+	width: 120px;
+	background-color: #0030ae;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 5px;
+	transition: all 0.3s ease-in-out;
+}
+.circle:hover{
+	transform: translateY(-5px);
+}
+.innerCircle{
+	position: relative;
+	text-align: center;
+	height: 100px;
+	width: 100px;
+	background-color: #1744ba;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+@media (max-width: 574px){
+	.circle{
+		margin-top: 50px;
+	}
+}
+
+/* Statistics */
+.statistics{
+	width: 100%;
+	background: url('../img/criset\ statistics.png') no-repeat;
+	background-size: cover;
+	padding: 100px 0 150px 0;
+}
+@media (max-width: 991px){
+  
+}
+@media (max-width: 574px){
+
+}
+
+/* Newsletter */
+.newsletter{
+	width: 100%;
+	padding: 50px 0 30px 0;
+}
+@media (max-width: 991px){
+  
+}
+@media (max-width: 574px){
+
+}
+
+/* Footer */
+.footer{
+	width: 100%;
+	background: url('../img/criset\ footer.png') no-repeat;
+	background-size: cover;
+	padding: 100px 0 30px 0;
+}
+
+.footer .fa-facebook{
+	color: rgb(8, 79, 209);
+}
+.footer .fa-instagram{
+	color: rgb(196, 45, 83);  
+}
+.footer .fa-twitter{
+	color: rgb(110, 208, 233);
+}
+.footer .fa-linkedin{
+	color: rgb(8, 79, 209);	
+}
+.footer .fab{
+	transition: transform 2s ease-in-out;
+}
+.footer .fab:hover{
+	transform: scale(1.4);
+}
+
+/* Team */
+.team{
+	width: 100%;
+	background: url('../img/criset\ statistics.png') no-repeat;
+	background-size: cover;
+	padding: 100px 0 150px 0;
+}
+@media (max-width: 991px){
+  
+}
+@media (max-width: 574px){
+
+}
+
+.team img{
+	width: 60%;
+	height: auto;
+	border-radius: 50%;
+	transition: transform 2s ease-out;
+}
+.team img:hover{
+  transform: scale(1.2);
+}
+
+@media (max-width: 991px){
+	.team img{
+		width: 50%;
+	}
+}
+@media (max-width: 574px){
+	.team img{
+		width: 30%;
+	}
+}
+
+/* Supported */
+#supported img{
+	width: 50%;
+	margin: 0 0px;
+}
+@media (max-width: 574px){
+  #supported img{
+		width: 80%;
+		margin: 0 0px;
+  }
+}
+@media (max-width: 991px){
+  #supported img{
+    width: 80%;
+    margin: 0 0px;
+}
+}
+
+/* vision */
+.late{
+  width: 100%;
+  background: url('../img/criset\ late.png') no-repeat;
+  background-size: cover;
+  padding: 100px 0 150px 0;
+}
+@media (max-width: 991px){
+
+}
+@media (max-width: 574px){
+
+}
+.late1{
+	width: 100%;
+	background: url('../img/criset\ late1.png') no-repeat;
+	background-size: cover;
+	padding: 100px 0 150px 0;
+}
+
+  /* contact */
+#contact{
+  width: 100%;
+  background: url('../img/criset\ contact.png') center bottom no-repeat;
+  background-size: cover;
+  padding: 200px 0 150px 0;
+  overflow: hidden;
+}
+@media (max-width: 991px){
+  #contact .intro-info h1{
+		padding: 20px 0 0 0;
+  }
+}
+@media (max-width: 574px){
+  #contact .intro-info h1{
+    padding: 10px 0 0 0;
+	}
+}
+
+/* MEssage */
+#message{
+  margin-top: 10%;
+}
+@media (max-width: 991px){
+	#message{
+		margin-top: 20%;
+	}
+}
+@media (max-width: 574px){
+	#message{
+		margin-top: 50%;
+	}
+}
+.fa-facebook{
+	color: rgb(0, 86, 245);
+}
+.fa-instagram{
+	color: rgb(196, 45, 83);  
+}
+.fa-twitter{
+	color: rgb(110, 208, 233);
+}
+.fa-whatsapp{
+	color: rgb(35, 219, 50);
+}
+.fa-linkedin{
+	color: rgb(9, 92, 247);
+}
+.fab{
+	transition: transform 2s ease-in-out;
+}
+.fab:hover{
+	transform: scale(1.4);
+}
+
+.locate{
+	width: 600px;
+	height: 300px;
+}
+
+@media (max-width: 991px){
+	.locate{
+		width: 320px;
+		height: 250px;
+	}
+}
+@media (max-width: 574px){
+	.locate{
+		width: 400px;
+		height: 300px;
+	}
+}
+@media (max-width: 492px){
+	.locate{
+		width: 200px;
+		height: 300px;
+	}
+}
+
+/* support */
+#support{
+	width: 100%;
+	background: url('../img/criset\ late.png') center bottom no-repeat;
+	background-size: cover;
+	padding: 150px 0 200px 0;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.quick-fix {
+    background-color: #f9f8f8;
+    position: absolute;
+    top: 400px;
+}
+@media (max-width: 991px){
+	#support{
+			padding: 40px 0 200px 0;
+			margin-bottom: 50px;
+	}
+	.quick-fix {
+			top: 350px;
+	}
+}
+@media (max-width: 574px){
+	#support{
+			padding: 0px 0 100px 0;
+			margin-bottom: 60px;
+	}
+	.quick-fix {
+			top: 300px;
+
+	}
+}
+/* help */
+#help{
+	width: 100%;
+	background: url('../img/criset\ help.png') center top no-repeat;
+	background-size: cover;
+	margin-top: 200px;
+	overflow: hidden;
+	padding: 50px 0;
+}
+@media (max-width: 991px){
+	#help .support-center{
+		margin-top: 120px;
+			
+	}
+	#help{
+		margin-bottom: 150px;
+			
+	}
+}
+@media (max-width: 574px){
+	#help .support-center{
+		margin-top: 200px;
+	}
+}
+/* prices */
+#prices{
+	width: 100%;
+	background: url('../img/criset\ prices.png') center top no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	margin-bottom: 120px;
+    padding: 120px 0 120px 0;
+}
+
+/* wallet */
+#wallet{
+	width: 100%;
+	background: url('../img/criset\ wallet.png') center top no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	margin-bottom: 120px;
+    padding: 220px 0 220px 0;
+}
+#wallet h1{
+  margin-right: 20px;
+}
+.g-scrolling-carousel .items{
+	padding: 5px 0;
+	
+}
+.g-scrolling-carousel .items a{
+	display: inline-block;
+	border-radius: 20px;
+	margin-right: 10px;
+	width: 150px;
+	height: 130px;
+	line-height: 150px;
+	box-shadow: 0 0 0px #000;
+	text-align: center;
+	transition: all 0.65s;
+	font-size: 25px;
+	background-color: #f9f8f8;
+	color: #283d50;
+	border: none;
+	padding-top: 0px;
+}
+
+/* .wallet-option{
+	padding: 40px 80px 40px 40px;
+	transition: all 0.3s ease-in-out;
+} */
+.wallet-option:active {
+  border-color: blueviolet;
+}
+.wallet-option span{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.wallet-option .send:after{
+	font-family: "Font Awesome 5 Free";
+	content: '\f1d8';
+	padding-left: 20px;
+}
+.wallet-option .buy:after{
+	font-family: "Font Awesome 5 Free";
+	content: '\00bb';
+}
+.wallet-option .receive:after{
+	font-family: "Font Awesome 5 Free";
+	content: '\00bb';
+}
+.wallet-option .sell:after{
+	font-family: "Font Awesome 5 Free";
+	content: '\f3d1';
+}
+
+.wallet-option span:after{
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: 55px;
+	transition: 0.5s;
+}
+.wallet-option:hover span {
+  padding-right: 25px;
+}
+.wallet-option:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+.wallet-option:hover{
+  transform: translateY(-8px);
+}
+ @media (max-width: 991px){
+	#wallet{
+		background-size: cover;
+		margin-bottom: 50px;
+    	padding: 100px 0 100px 50px;
+	}
+}
+
+@media (max-width: 574px){
+	#wallet{
+		margin-bottom: 50px;
+    	padding: 20px 40px 100px 40px;
+	}
+} 
+
+/* sign-up or sign-in */
+#up-in{
+	width: 100%;
+	background: url('../img/criset\ quicklogin.png') center top no-repeat;
+	background-size: cover;
+	overflow: hidden;
+  	padding: 150px 0 20px 0;
+}
+a.btn.btn-primary.mt-3.s-in, a.btn.btn-primary.mt-3.s-up{
+	padding: 12px 150px;
+	border-radius: 25px;
+}
+@media (max-width: 991px){
+	a.btn.btn-primary.mt-3.s-in, a.btn.btn-primary.mt-3.s-up{
+		padding: 12px 120px;
+		border-radius: 25px;
+	}
+}
+@media (max-width: 770px){
+	a.btn.btn-primary.mt-3.s-in, a.btn.btn-primary.mt-3.s-up{
+		padding: 12px 100px;
+		border-radius: 25px;
+	}
+}
+
+/* Statistics */
+#doc{
+	width: 100%;
+	background: url('../img/criset\ doc.png') no-repeat;
+	background-size: cover;
+	padding: 100px 0 150px 0;
+}
+
+.headShake{
+	transition: transform 2s ease-in-out;
+} 
+
+.headShake:hover{
+	transform: scale(1.3);
+	z-index: 1;
+} 
+
+@media (max-width: 991px){
+	#doc{
+		padding: 50px 0 150px 0;
+	}
+}
+@media (max-width: 574px){
+	#doc{
+		padding: 0 0 150px 0;
+	}	
+	.headShake:hover{
+		transform: scale(1.1);
+	} 
+}
+
+#left-leave{
+	animation: leave 1s ease infinite alternate;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+#right-leave{
+	animation: leaveR 1s ease infinite alternate;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+@keyframes leave{
+	from{
+		transform: translateX(20deg);
+	}
+	to{
+		transform: translateX(50deg);
+	}
+}
+
+@keyframes leaveR{
+	from{
+		transform: skewX(0deg);
+	}
+	to{
+		transform: skewX(10deg);
+	}
+}
+#door{
+
+}
+
+@keyframes door{
+	from{
+
+	}
+	to{
+		
+	}
+}
